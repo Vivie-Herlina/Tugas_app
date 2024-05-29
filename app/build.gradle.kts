@@ -40,5 +40,6 @@ dependencies {
     implementation ("com.google.android.material:material:1.11.0")
     implementation ("com.google.zxing:core:3.4.1")
     implementation ("com.google.android.gms:play-services-vision:20.1.3")
+    implementation ("com.android.support:support-annotations:28.0.0")
 
 }

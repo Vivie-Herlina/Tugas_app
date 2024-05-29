@@ -5,7 +5,9 @@
         android:name="android.hardware.camera"
         android:required="false" />
 
+    <uses-feature android:name="android.hardware.camera.autofocus" />
     <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -16,6 +18,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.App_AquaMP">
+        <activity
+            android:name=".scanner_ktp"
+            android:exported="false" />
         <activity
             android:name=".royal"
             android:exported="false" />
@@ -36,9 +41,6 @@
             android:exported="false" />
         <activity
             android:name=".hal_scan"
-            android:exported="false" />
-        <activity
-            android:name=".hal_royalvaganza"
             android:exported="false" />
         <activity
             android:name=".hal_selamatekstra"

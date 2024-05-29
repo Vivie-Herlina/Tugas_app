@@ -25,7 +25,7 @@ public class hal_scanyes extends AppCompatActivity {
     }
 
     public void save(View v) {
-        Intent intent = new Intent (hal_scanyes.this, hal_scanktp.class);
+        Intent intent = new Intent (hal_scanyes.this, scan_selamat.class);
         startActivity(intent);
     }
 

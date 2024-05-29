@@ -21,7 +21,7 @@ public class hal_selamatekstra extends AppCompatActivity {
     }
 
     public void openroyal(View v) {
-        Intent intent = new Intent (hal_selamatekstra.this, royal.class);
+        Intent intent = new Intent(hal_selamatekstra.this, hal_ekstravaganza.class);
         startActivity(intent);
     }
 }

@@ -135,6 +135,7 @@
         android:src="@drawable/rectangle518"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
@@ -150,25 +151,70 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.171"
+        app:layout_constraintHorizontal_bias="0.148"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.759"
+        app:layout_constraintVertical_bias="0.782"
         tools:ignore="HardcodedText" />
 
     <ImageView
-        android:id="@+id/imagegrupminplus"
+        android:id="@+id/imageButtongroup"
         android:layout_width="64dp"
         android:layout_height="28dp"
         android:contentDescription="gambar ketiga"
-        android:src="@drawable/frame3668"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.887"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.763"
+        android:src="@drawable/button"
+        app:layout_constraintBottom_toBottomOf="@+id/imagekotakcream"
+        app:layout_constraintEnd_toEndOf="@+id/imagekotakcream"
+        app:layout_constraintHorizontal_bias="0.776"
+        app:layout_constraintStart_toStartOf="@+id/imagekotakcream"
+        app:layout_constraintTop_toTopOf="@+id/imagekotakcream"
+        app:layout_constraintVertical_bias="0.124"
         tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/plus"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="gambar ketiga"
+        android:src="@drawable/plus"
+        app:layout_constraintBottom_toBottomOf="@+id/imagekotakcream"
+        app:layout_constraintEnd_toEndOf="@+id/imagekotakcream"
+        app:layout_constraintHorizontal_bias="0.72"
+        app:layout_constraintStart_toStartOf="@+id/imagekotakcream"
+        app:layout_constraintTop_toTopOf="@+id/imagekotakcream"
+        app:layout_constraintVertical_bias="0.145"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <ImageView
+        android:id="@+id/min"
+        android:layout_width="18dp"
+        android:layout_height="18dp"
+        android:contentDescription="gambar ketiga"
+        android:src="@drawable/min"
+        app:layout_constraintBottom_toBottomOf="@+id/imagekotakcream"
+        app:layout_constraintEnd_toEndOf="@+id/imagekotakcream"
+        app:layout_constraintHorizontal_bias="0.784"
+        app:layout_constraintStart_toStartOf="@+id/imagekotakcream"
+        app:layout_constraintTop_toTopOf="@+id/imagekotakcream"
+        app:layout_constraintVertical_bias="0.145"
+        tools:ignore="ContentDescription,HardcodedText" />
+
+    <TextView
+        android:id="@+id/textplusmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imagekotakcream"
+        app:layout_constraintEnd_toEndOf="@+id/imagekotakcream"
+        app:layout_constraintHorizontal_bias="0.744"
+        app:layout_constraintStart_toStartOf="@+id/imagekotakcream"
+        app:layout_constraintTop_toTopOf="@+id/imagekotakcream"
+        app:layout_constraintVertical_bias="0.144"
+        tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/texttotal"
@@ -180,26 +226,26 @@
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.122"
+        app:layout_constraintHorizontal_bias="0.116"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8"
+        app:layout_constraintVertical_bias="0.822"
         tools:ignore="HardcodedText" />
 
     <TextView
         android:id="@+id/text400"
-        android:layout_width="58dp"
-        android:layout_height="45dp"
+        android:layout_width="51dp"
+        android:layout_height="29dp"
         android:fontFamily="@font/montserrat"
         android:text="400"
         android:textColor="#4E5355"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.892"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.823"
+        app:layout_constraintVertical_bias="0.825"
         tools:ignore="HardcodedText" />
 
     <Button

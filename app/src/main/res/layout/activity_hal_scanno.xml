@@ -87,7 +87,7 @@
         tools:ignore="HardcodedText" />
 
     <TextView
-        android:id="@+id/textangkabiru"
+        android:id="@+id/text30"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/montserrat"

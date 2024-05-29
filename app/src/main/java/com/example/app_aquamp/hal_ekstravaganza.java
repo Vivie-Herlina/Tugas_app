@@ -97,7 +97,7 @@ public class hal_ekstravaganza extends AppCompatActivity {
     }
 
     public void redeem(View v) {
-        Intent intent = new Intent(hal_ekstravaganza.this, hal_selamatekstra.class);
+        Intent intent = new Intent(hal_ekstravaganza.this, hal_scanktp.class);
         startActivity(intent);
     }
 }
